@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+ <style>
+     body{ 
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: white;
+         margin: 0px;
+         padding: 0px;
+         background-image: url('image.jpg');
+        
+        }
+        .left{
+            display: block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 60px;
+            top:  20px;
+
+        }
+        .left img{
+            width: 70px;
+            filter: invert(100%);
+        }
+        .left div{
+            line-height: 10px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            text-align: center;
+
+        }
+        .middle{
+            display: block;
+            /* border: 2px solid green; */
+           width: 45%;
+           margin: 12px auto;
+           top: 20px;
+           
+        }
+        .right{
+            display: block;
+            /* border: 2px solid yellow; */
+            position: absolute;
+            right: 30px;
+            top:  20px;
+        }
+        .btn{
+            margin: 0px 9px;
+            color: tomato;
+            background-color: black;
+            padding: 4px 16px;
+            border: 2px solid yellow;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(92, 86, 85);
+        }
+        .Mukul{
+            display: inline-block;
+        }
+        .Mukul li{
+         display: inline-block;
+         font-size: 25px;
+         
+        }
+        .Mukul li a{
+            color: white;
+            text-decoration : none;
+            padding: 34px 23px
+        
+        }
+        .Mukul li a:hover{ 
+          text-decoration: underline;
+          background-color: rgb(102, 129, 127);
+          cursor: pointer;
+          
+        }
+        .contain{
+        border: rgb(219, 195, 195) solid 2px;
+        margin: 176px 80px;
+        padding: 80px 10px;
+        width: 45%;
+        border-radius: 28px;
+
+        /* margin-top: 122px;
+        margin-left: 133px; */
+        }
+    
+            .contain form {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: -5px solid black;
+    text-align: center;
+    margin: 34px auto;
+    display: block;
+    padding: 7px;
+    border-radius: 34px;
+    width: 554px;
+    font-size: 17px;
+
+        }
+    .contain h4{
+        text-align: center;
+
+    }
+    .contain button{
+    display: block;
+    width: 23%;
+    margin: auto;
+    }
+ </style>
+<body>
+    <header class="header">
+        
+        <div class="left">
+      <img src="images.png" alt="">   
+      <div>
+          Mukul Fitness
+      </div>
+        </div>
+        <div class="middle">
+           <ul class="Mukul">
+               <li> <a href="">Home</a> </li>
+               <li> <a href="">About Us</a> </li>
+               <li> <a href=""> Fitness Center</a></li>
+               <li> <a href="">Calling </a></li>
+           </ul>
+        </div>
+       
+      <div class="right">
+          <button class="btn"> Call Us Now </button>
+          <button class="btn"> Email Us </button>
+      </div>
+
+      <div class="contain">
+          <h4>Jion Our Gym</h4>
+          <div class="Form">
+          <form action="" method="POST"> 
+            <label for="">Name
+            </label> <input type="text" name="" placeholder="enter your name "> <br> <br>
+
+            <label for=""> Height
+            </label> <input type="text" name="fname" placeholder="enter the Height"> <br> <br>
+
+            <label for=""> Weight
+            </label> <input type="text" name="" placeholder="enter your Weight "> <br> <br>
+
+             <label for=""> Fees
+            </label> <input type="text" name="" placeholder="enter your Fees "> <br> <br>
+        </div>
+            <button class="btn">Submit </button>
+     </form>            
+      </div>
+    </header>
+    
+</body>
+</html>
